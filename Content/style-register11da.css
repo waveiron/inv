@@ -1,0 +1,215 @@
+body {
+  background: #f0f0f0;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.wall {
+  position: relative;
+  background: #FFF url("img/RegisterBg.png") bottom center no-repeat;
+  border: 0;
+  height: 450px;
+  margin-bottom: 10px;
+}
+
+.wall h4 {
+  line-height: 22px;
+}
+
+.control-panle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 365px;
+  position: absolute;
+  left: 60px;
+}
+
+.form-horizontal .control-label {
+  width: 60px;
+}
+
+.form-horizontal .controls {
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+
+.register-banner {
+  position: absolute;
+  right: 80px;
+  top: 75px;
+}
+
+.register-logo {
+  height:80px;
+  padding:30px 20px;
+}
+
+.register-flow {
+  height: 80px; 
+  float: right; 
+  padding: 30px 20px;
+}
+
+/* Higher than 1200 (desktop devices)
+====================================================================== */
+  @media (min-width: 1200px)
+  {
+  }
+
+  @media only screen and (max-width:1279px) {
+  }
+
+  @media only screen and (min-width: 1200px) and (max-width: 1279px)
+  {
+    .control-panle {
+      left: 40px;
+    }
+    .register-banner {
+      right: 40px;
+    }
+  }
+
+  /* Higher than 960 (desktop devices)
+  ====================================================================== */
+  @media only screen and (min-width: 980px) and (max-width: 1199px)
+  {
+    .control-panle {
+      left: 30px;
+    }
+    .register-banner {
+      top: 85px;
+      right: 30px;
+      width:500px;
+    }
+  }
+
+  @media (max-width: 979px)
+  {
+    .control-panle {
+      width:450px;
+      left:130px;
+    }
+    .register-banner {
+      display:none;
+    }
+
+    .register-logo {
+      height:60px;
+      padding:15px 20px;
+    }
+
+    .register-flow {
+      height: 60px; 
+      float: right; 
+      padding:15px 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 590px) and (max-width: 979px)
+  {
+    .control-panle {
+      width:450px;
+      left:50%;
+      margin-left:-225px;
+    }
+  }
+
+  /* All Mobile Sizes (devices and browser)
+  ====================================================================== */
+  @media only screen and (max-width: 589px)
+  {
+    .wall {
+      background-color:transparent;
+      padding:0;
+    }
+    .control-panle {
+      left:0;
+      width:100%;
+      margin-top:0;
+    }
+
+    .register-logo {
+      height:60px;
+      padding:10px;
+    }
+    .register-flow {
+      display:none;
+    }
+
+    .form-horizontal .control-label {
+      float:none;
+      text-align:left;
+    }
+
+    .form-horizontal .controls {
+      float:none;
+      margin-left:0;
+      margin-bottom:0;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers)
+  ====================================================================== */
+  @media only screen and (min-width: 480px) and (max-width: 767px)
+  {
+
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+  =================================================================== */
+  @media only screen and (max-width: 479px)
+  {
+  }
+
+
+  /* For IE7&8
+  =================================================================== */
+  .wall {
+    *width:940px;
+  }
+
+  .register-header {
+    *position:relative;
+  }
+
+  .control-panle {
+    *width: 360px;
+    *left: 20px;
+    left: 20px \0;
+  }
+
+  .form-horizontal .control-group {
+    *clear:both
+  }
+
+  .form-horizontal .controls {
+    *margin-left:0;
+  }
+
+  .form-horizontal .controls input {
+    *width:240px
+  }
+
+  .form-horizontal .controls input[type=checkbox] {
+    *margin-left: 0;
+    *width:20px
+  }
+  .form-horizontal .checkbox {
+    *margin-left: 0;
+    *width:240px;
+    *clear:both;
+  }
+
+  .register-banner {
+    *right: 20px;
+    right: 20px \0;
+  }
+
+  .register-flow {
+    *position:absolute;
+    *padding: 30px 0;
+    *right:0;
+  }

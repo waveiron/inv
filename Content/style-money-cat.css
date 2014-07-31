@@ -1,0 +1,327 @@
+body {
+	font-family: "Microsoft YaHei","Lucida Sans Unicode","Myriad Pro","Hiragino Sans GB","Heiti SC",Verdana,simsun;
+}
+.cf:after {
+    content: '\0020';
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+.hidden {
+    display: none;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.wrapper {
+    background: transparent url(../Images/MoneyCat/bg.png) no-repeat center top;
+    min-height: 1000px;
+}
+
+.banner {
+    background: transparent url(../Images/MoneyCat/banner.png) no-repeat center top;
+    height: 731px;
+}
+
+.wordings {
+    margin: auto;
+    width: 990px;
+    min-height: 100px;
+    margin-bottom: 90px;
+}
+
+.note {
+    margin-top: 50px;
+}
+
+.wordings .note {
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+#step1,
+#step2,
+#step3 {
+    width: 330px;
+    height: 330px;
+    float: left;
+    text-indent: -9999px;
+}
+
+#step1 {
+    background: transparent url(../Images/MoneyCat/step1.png) no-repeat center center;
+}
+#step2 {
+    background: transparent url(../Images/MoneyCat/step2.png) no-repeat center center;
+}
+#step3 {
+    background: transparent url(../Images/MoneyCat/step3.png) no-repeat center center;
+}
+
+.share-wrapper {
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.share-wrapper h2 {
+    font-size: 18px;
+}
+
+.middle-wrapper {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+
+
+.highlight {
+    color: #d03a34;
+}
+
+#benifit-card {
+    width: 270px;
+    height: 204px;
+    background-color: #d03a34;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.benifit-card-wording {
+	margin-top: 40px;
+}
+
+.benifit-card-wording p {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+
+.skin {
+		font-size: 14px;
+		line-height: 30px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+
+.your-reward,
+.tips {
+    height: 295px;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.your-reward .skin,
+.tips .skin {
+    padding: 20px;
+    height: 100%;
+}
+
+.logs {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sharebox {
+    margin: auto;
+    width: 120px;
+}
+
+.dashes {
+    border-left: 1px dashed #ddd;
+    border-right: 1px dashed #ddd;
+    padding: 0 30px;
+}
+
+
+
+#D0 {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 0px 5px, rgba(0, 0, 0, 0.34902) 0px 1px 1px 0px;
+            box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 0px 5px, rgba(0, 0, 0, 0.34902) 0px 1px 1px 0px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    color: rgb(176, 176, 176)/* darkgray */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 80px;
+    line-height: 20px;
+    min-height: 80px;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 100%;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 0px 5px, rgba(0, 0, 0, 0.34902) 0px 1px 1px 0px;
+    background: rgb(51, 51, 51)/* darkslategray */ none repeat scroll 0% 0%;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    padding: 0px 20px;
+}
+#D1 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 70px;
+    line-height: 20px;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 1170px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    margin: auto;
+}
+#D2 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 70px;
+    line-height: 20px;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 1200px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    margin: 0px 0px 0px -30px;
+}
+#D3 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    float: left;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 70px;
+    line-height: 20px;
+    min-height: 1px;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 1170px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    margin: 0px 0px 0px 30px;
+}
+#D4 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    float: left;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 352px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    margin: 32px 0px 0px 0px;
+}
+#D5 {
+    color: rgb(238, 238, 238)/* whitesmoke */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: none solid rgb(238, 238, 238);
+    border: 0px none rgb(238, 238, 238)/* whitesmoke */;
+}
+#D5:hover, #D9:hover, #D12:hover, #D15:hover {
+    color: rgb(36, 152, 196)/* lightseagreen */;
+    text-decoration: underline;
+}
+#D5:focus, #D9:focus, #D12:focus, #D15:focus {
+    outline-offset: -2px;
+    color: rgb(0, 85, 128)/* teal */;
+    text-decoration: underline;
+    outline: -webkit-focus-ring-color 5px auto;
+}
+#D6 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: none solid rgb(176, 176, 176);
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+}
+#D7 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    float: right;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 60px;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 283px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#D8 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    display: inline-block;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 42px;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 42px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    padding: 0px 5px;
+}
+#D9, #D12, #D15 {
+    color: rgb(0, 100, 141)/* teal */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none solid rgb(0, 100, 141);
+    border: 0px none rgb(0, 100, 141)/* teal */;
+}
+#D10, #D13, #D16 {
+    color: rgb(0, 100, 141)/* teal */;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    line-height: 20px;
+    list-style-type: none;
+    max-width: 100%;
+    text-decoration: none solid rgb(0, 100, 141);
+    vertical-align: middle;
+    border: 0px none rgb(0, 100, 141)/* teal */;
+}
+#D11 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    display: inline-block;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 38px;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 102px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    padding: 0px 5px;
+}
+#D14 {
+    color: rgb(176, 176, 176)/* darkgray */;
+    display: inline-block;
+    font-family: 'Microsoft YaHei', 'Lucida Sans Unicode', 'Myriad Pro', 'Hiragino Sans GB', 'Heiti SC', Verdana, simsun;
+    font-size: 13px;
+    height: 60px;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none solid rgb(176, 176, 176);
+    width: 103px;
+    border: 0px none rgb(176, 176, 176)/* darkgray */;
+    padding: 0px 5px;
+}
+.search-date {
+  text-align: right;
+}
+
+
+.share-wrapper .field-validation-error {
+	color: red;
+	display: block;
+	text-align: right;
+}

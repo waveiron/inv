@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'candararegular';
+  src: url('Font/candara-webfont.eot');
+  src: url('Font/candara-webfontd41d.eot?#iefix') format('embedded-opentype'), url('Font/candara-webfont.ttf') format('truetype'), url('Font/candara-webfont.svg#candararegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-width: 990px;
+}
+
+.special-logo {
+  display: block;
+  padding: 10px 0 15px 12%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-container {
+  width: 980px;
+  margin: 0 auto 20px;
+}
+
+.banner-container:before, .banner-container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+  clear: both;
+}
+
+.cctv-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-horizontal .control-label {
+  width: 70px;
+  position: relative;
+}
+
+.form-horizontal .controls {
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+
+.form-horizontal .control-group {
+  position: relative;
+}
+
+.control-panle {
+  width: 300px;
+  margin: 10px 0 0 auto;
+  left: 20px;
+}
+
+.form-tip {
+  font-size: 12px;
+  color: #999;
+  position: absolute;
+  right: 1px;
+  top: 25px;
+}
+
+.RCode-question {
+  position: absolute;
+  right: 5px;
+  top: -6px;
+  color: #29a9df;
+  display: block;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  border: 1px solid #29a9df;
+  text-decoration: none;
+  border-radius: 44px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 22px;
+}
+.RCode-question .fa{
+  color: #29a9df;
+}

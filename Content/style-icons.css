@@ -1,0 +1,478 @@
+/* Project Status
+=================================================================== */
+
+[class^="project-status-"],
+[class*="project-status-"]
+{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-image: url("img/project-status.png");
+    background-repeat: no-repeat;
+}
+
+
+.small[class^="project-status-"],
+.small[class*="project-status-"]
+{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-image: url("img/project-status-small.png");
+    background-repeat: no-repeat;
+}
+
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+{
+    [class^="project-status-"],
+    [class*="project-status-"]
+    {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        background-image: url("img/project-status%402x.png");
+        background-repeat: no-repeat;
+        background-size: 250px 50px;
+    }
+
+
+    .small[class^="project-status-"],
+    .small[class*="project-status-"]
+    {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        background-image: url("img/project-status-small%402x.png");
+        background-repeat: no-repeat;
+        background-size: 150px 30px;
+    }
+
+}
+
+.project-status-ready
+{
+    background-position: 0px 0px;
+}
+
+.project-status-completed
+{
+    background-position: -50px 0px;
+}
+
+.project-status-repayment
+{
+    background-position: -100px 0px;
+}
+
+.project-status-finished
+{
+    background-position: -150px 0px;
+}
+
+.project-status-suspend
+{
+    background-position: -200px 0px;
+}
+
+.small.project-status-ready
+{
+    background-position: 0px 0px;
+}
+
+.small.project-status-completed
+{
+    background-position: -30px 0px;
+}
+
+.small.project-status-repayment
+{
+    background-position: -60px 0px;
+}
+
+.small.project-status-finished
+{
+    background-position: -90px 0px;
+}
+
+.small.project-status-suspend
+{
+    background-position: -120px 0px;
+}
+
+
+[class^='guarantee-logo-'],
+[class*='guarantee-logo-'] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background-image: url(../Images/brands/guarantee-logo.png);
+    background-repeat: no-repeat;
+    overflow:hidden;
+    vertical-align:text-bottom;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+{
+    [class^='guarantee-logo-'],
+    [class*='guarantee-logo-'] {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        background-image: url(../Images/brands/guarantee-logo%402x.png);
+        background-repeat: no-repeat;
+        background-size:72px 72px;
+    }
+}
+
+    .guarantee-logo-zhongming,
+    .guarantee-logo-hengxin {
+        background-position: 0 0;
+    }
+
+    .guarantee-logo-zhongsheng {
+        background-position: -18px 0;
+    }
+
+    .guarantee-logo-yilin {
+        background-position: -36px 0;
+    }
+
+    .guarantee-logo-weijia {
+        background-position: -54px 0;
+    }
+
+    .guarantee-logo-tongzhan {
+        background-position: 0 -18px;
+    }
+
+    .guarantee-logo-shengxin {
+        background-position: -18px -18px;
+    }
+
+    .guarantee-logo-jinkong {
+        background-position: -36px -18px;
+    }
+
+    .guarantee-logo-rongtou {
+        background-position: -54px -18px;
+    }
+
+    .guarantee-logo-siku {
+        background-position: 0 -36px;
+    }
+
+    .guarantee-logo-baituo {
+        background-position: -18px -36px;
+    }
+
+    .guarantee-logo-huaxi {
+        background-position: -36px -36px;
+    }
+
+    .guarantee-logo-quwan {
+        background-position: -54px -36px;
+    }
+
+    .guarantee-logo-qufenqi {
+        background-position: 0px -54px;
+    }
+
+    .guarantee-logo-zaidanbao {
+        background-position: -18px -54px;
+    }
+
+    .guarantee-logo-taian {
+        background-position: -36px -54px;
+    }
+
+    .guarantee-logo-anjia {
+        background-position: -54px -54px;
+    }
+
+/* Item Icon
+=================================================================== */
+[class^='item-icon-'],
+[class*='item-icon-'] {
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    overflow: hidden;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url('img/item-icon.png');
+    background-repeat: no-repeat;
+}
+
+[class^='item-smallicon-'],
+[class*='item-smallicon-'] {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url('img/item-smallicon.png');
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    [class^="item-icon-"],
+    [class*="item-icon-"] {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+        vertical-align: text-top;
+        background-image: url("img/item-icon%402x.png");
+        background-repeat: no-repeat;
+        background-size: 400px 400px;
+    }
+
+    [class^='item-smallicon-'],
+    [class*='item-smallicon-'] {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        vertical-align: text-top;
+        display: inline-block;
+        background-image: url('img/item-smallicon%402x.png');
+        background-repeat: no-repeat;
+        background-size: 200px 50px;
+    }
+}
+
+
+.item-icon-team {
+    background-position: 0 0;
+}
+
+.item-icon-safeguard {
+    background-position: -100px 0;
+}
+
+.item-icon-free {
+    background-position: -200px 0;
+}
+
+.item-icon-experience {
+    background-position: -300px 0;
+}
+
+.item-smallicon-team {
+    background-position: -155px -5px;
+}
+
+.item-smallicon-safeguard {
+    background-position: -5px -5px;
+}
+
+.item-smallicon-free {
+    background-position: -55px -5px;
+}
+
+.item-smallicon-experience {
+    background-position: -105px -5px;
+}
+
+.item-icon-cooperation {
+    background-position: 0 -100px;
+}
+
+.item-icon-security {
+  background-position: -300px -100px;
+}
+
+.item-icon-credit {
+  background-position: -100px -100px;
+}
+.coupon-landing-page .item-icon-cooperation,
+.coupon-landing-page .item-icon-credit,
+.coupon-landing-page .item-icon-financy,
+.coupon-landing-page .item-icon-security {
+    width: 101px;
+    height: 101px;
+}
+
+.coupon-landing-page .item-icon-cooperation {
+    background: url(img/item-icon1.png) no-repeat 0 0;
+}
+
+.coupon-landing-page .item-icon-credit {
+    background: url(img/item-icon4.png) no-repeat 0 0;
+}
+
+.coupon-landing-page .item-icon-financy {
+    background: url(img/item-icon2.png) no-repeat 0 0;
+}
+
+.coupon-landing-page .item-icon-security {
+    background: url(img/item-icon3.png) no-repeat 0 0;
+}
+
+.item-icon-register {
+    background-position: 0 -200px;
+}
+
+.item-icon-pnr {
+    background-position: -100px -200px;
+}
+
+.item-icon-realname {
+    background-position: -200px -200px;
+}
+
+.item-icon-invest {
+    background-position: -300px -200px;
+}
+
+.item-icon-charge {
+    background-position: 0 -300px;
+}
+
+.item-icon-withdraw {
+    background-position: -100px -300px;
+}
+
+
+
+/* Prompt Icon
+=================================================================== */
+[class^="prompt-icon-"],
+[class*="prompt-icon-"] {
+    height: 90px;
+    width: 90px;
+    vertical-align: text-top;
+    overflow: hidden;
+    display: inline-block;
+    background-image: url('img/prompt-icon.png');
+    background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+    [class^="prompt-icon-"],
+    [class*="prompt-icon-"] {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        vertical-align: text-top;
+        background-image: url("img/prompt-icon%402x.png");
+        background-repeat: no-repeat;
+        background-size: 270px 90px;
+    }
+}
+
+.prompt-icon-success {
+    background-position: 0 0;
+}
+
+.prompt-icon-error {
+    background-position: -90px 0;
+}
+
+.prompt-icon-warning {
+    background-position: -180px 0;
+}
+
+
+/* Auth icon
+====================================================================== */
+[class^="auth-icon-"],
+[class*="auth-icon-"] {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: text-top;
+    background-image: url("img/auth-icon.png");
+    background-repeat: no-repeat;
+    background-color: #E3E3E3;
+}
+
+    /*@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+	[class^="auth-icon-"],
+	[class*="auth-icon-"] {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+		vertical-align: text-top;
+		background-image: url("/Content/img/auth-icon@2x.png");
+		background-repeat: no-repeat;
+		background-size: 120px 60px;
+	}
+
+}*/
+
+    [class^="auth-icon-"].small,
+    [class*="auth-icon-"].small {
+        height: 24px;
+        width: 24px;
+        margin-top: 0;
+    }
+
+    [class^="auth-icon-"].active,
+    [class*="auth-icon-"].active {
+        background-color: #08c;
+    }
+
+.auth-icon-investigate {
+    background-position: 0 0;
+}
+
+.auth-icon-report {
+    background-position: -30px 0;
+}
+
+.auth-icon-realName {
+    background-position: -60px 0;
+}
+
+.auth-icon-guarantee {
+    background-position: -90px 0;
+}
+
+
+.auth-icon-phone {
+    background-position: -3px -33px;
+}
+
+.auth-icon-email {
+    background-position: -33px -33px;
+}
+
+.small.auth-icon-realName {
+    background-position: -63px -33px;
+}
+
+.auth-icon-gold-card {
+    background-position: -93px -33px;
+    background-color: #FFF;
+    margin: 0;
+}
+
+.auth-icon-silver-card {
+    background-position: -3px -63px;
+    background-color: #FFF;
+    margin: 0;
+}
+
+.auth-icon-lucky-cat {
+    background-position: -30px -63px;
+    background-color: #FFF;
+    margin: 0;
+}

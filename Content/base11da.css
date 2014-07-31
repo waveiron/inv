@@ -1,0 +1,542 @@
+.text-right,
+.table th.text-right,
+.table td.text-right
+{
+    text-align:right;
+}
+
+.text-center,
+.table th.text-center,
+.table td.text-center
+{
+    text-align:center
+}
+
+#CaptchaImage {
+    cursor:pointer
+}
+
+
+/*******************/
+/* jquery.validate */
+/*******************/
+
+.validation-summary-errors {
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.field-validation-error {
+    color:#b94a48;
+}
+
+.field-validation-valid {
+    display:none;
+}
+
+.input-validation-error
+{
+    border-color: #b94a48 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+/*************/
+/* Bootstrap */
+/*************/
+
+
+.popover{
+    font-size:12px;
+    line-height:18px;
+}
+
+.progress {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeaeaea', endColorstr='#fff3f3f3f3', GradientType=0)
+}
+
+/* bug fix */
+.radio.inline, .checkbox.inline {
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+/* remove first element margin-left of inline radio group */
+.radio.inline + .radio.inline, .checkbox.inline + .checkbox.inline {
+  margin-left: 0;
+}
+
+form
+{
+    margin-bottom:0;
+}
+
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block,
+.form-horizontal .uneditable-input + .help-block,
+.form-horizontal .input-prepend + .help-block,
+.form-horizontal .input-append + .help-block {
+  margin-top: 0;
+}
+
+.form-horizontal .control-group
+{
+    margin-bottom:10px;
+}
+
+.form-horizontal .control-group .controls > div {
+    margin-top:10px;
+}
+
+.form-horizontal .control-group .controls > div:first-child {
+    margin-top:0;
+}
+
+.form-horizontal .control-group .controls li {
+    margin-top:10px;
+}
+
+.form-horizontal .control-group .controls li:first-child {
+    margin-top:0;
+}
+
+    input + .help-block, select + .help-block, textarea + .help-block,
+    .input-append + .help-block, .input-prepend + .help-block, .controls + .help-block{
+        margin-top: -10px;
+    }
+
+/* reset dl,dd,dt */
+
+dt, dd
+{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    min-height: 20px;
+}
+
+.dl-horizontal dt
+{
+    width: 160px;
+}
+
+.dl-horizontal dd
+{
+    margin-left: 180px;
+}
+
+.label {
+    font-weight:normal;
+    text-shadow:none;
+    padding:4px 8px;
+}
+
+/* reset button */
+
+.btn,
+.btn.disabled,
+.btn[disabled] {
+    background:#E3E3E3;
+    border:none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+    overflow:hidden;
+}
+
+.btn-link,
+.btn-link.disabled,
+.btn-link[disabled] {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  text-shadow:none;
+}
+
+.btn-primary {
+  background-color: #29a9df;
+  background-image: none;
+  background-repeat: repeat-x;
+  border:0;
+  filter: initial;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  background-color: #0e9ac7;
+  text-shadow:none;
+}
+
+.btn-warning {
+  background-color: #ff7900;
+  background-image: none;
+  background-repeat: repeat-x;
+  border:0;
+  filter: initial;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+  background-color: #e86e00;
+  text-shadow:none;
+}
+
+.btn-danger {
+  background-color: #e83737;
+  background-image: none;
+  background-repeat: repeat-x;
+  border:0;
+  filter: initial;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+  background-color: #cc2b2b;
+  text-shadow:none;
+}
+
+.btn-success {
+  background-color: #94d326;
+  background-image: none;
+  background-repeat: repeat-x;
+  border:0;
+  filter: initial;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+  background-color: #87c122;
+}
+
+.btn-info,
+.btn-info.disabled,
+.btn-info[disabled] {
+  -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.5),0 3px 0 #1f6377;
+     -moz-box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.5),0 3px 0 #1f6377;
+          box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.5),0 3px 0 #1f6377;
+}
+
+.btn-group > .btn + .btn {
+  margin-left: 0;
+}
+
+.btn-group.open .btn-primary.dropdown-toggle {
+  background-color: #5f80cf;
+}
+
+.btn-group.open .btn-danger.dropdown-toggle {
+  background-color: #d84e4e;
+}
+
+.btn-group.open .btn-success.dropdown-toggle {
+  background-color: #a5ce5d;
+}
+
+.input-append .btn, .input-prepend .btn
+{
+    box-shadow:none;
+    padding:5px 12px;
+}
+
+.modal-header
+{
+    border-bottom:none;
+}
+
+.modal-footer
+{
+    border-top:none;
+}
+
+.progress .bar {
+  text-shadow: none;
+  background-color: #0e90d2;
+  background-image: none;
+  filter: none;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.progress .bar + .bar {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.progress-danger .bar,
+.progress .bar-danger {
+  background-color: #dd514c;
+  background-image: none;
+  filter: none;
+}
+
+.progress-success .bar,
+.progress .bar-success {
+  background-color: #94d326;
+  background-image: none;
+  filter: none;
+}
+
+.progress-info .bar,
+.progress .bar-info {
+  background-color: #29a9df;
+  background-image: none;
+  filter: none;
+}
+
+.progress-warning .bar,
+.progress .bar-warning {
+  background-color: #ff7900;
+  background-image: none;
+  filter: none;
+}
+
+.progress-striped .bar {
+  background-color: #149bdf;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+     -moz-background-size: 40px 40px;
+       -o-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+
+.progress.active .bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+     -moz-animation: progress-bar-stripes 2s linear infinite;
+      -ms-animation: progress-bar-stripes 2s linear infinite;
+       -o-animation: progress-bar-stripes 2s linear infinite;
+          animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-danger.progress-striped .bar,
+.progress-striped .bar-danger {
+  background-color: #ee5f5b;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-success.progress-striped .bar,
+.progress-striped .bar-success {
+  background-color: #62c462;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+  background-color: #5bc0de;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-warning.progress-striped .bar,
+.progress-striped .bar-warning {
+  background-color: #fbb450;
+  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+
+
+/* Glyphicons
+=================================================================== */
+
+.icon-red
+{
+    background-image: url("bootstrap/img/glyphicons-halflings-red.png");
+}
+
+.icon-gray
+{
+    background-image: url("bootstrap/img/glyphicons-halflings-gray.png");
+}
+
+.icon-orange
+{
+    background-image: url("bootstrap/img/glyphicons-halflings-orange.png");
+}
+
+.icon-green
+{
+    background-image: url("bootstrap/img/glyphicons-halflings-green.png");
+}
+
+/* Glyphicons add-on
+=================================================================== */
+
+.icon-dashboard
+{
+    background-position: 0 -168px;
+}
+
+.icon-attechment
+{
+    background-position: -24px -168px;
+}
+
+.icon-heart
+{
+    background-position: -48px -168px;
+}
+
+.icon-link
+{
+    background-position: -72px -168px;
+}
+
+.icon-mobile
+{
+    background-position: -96px -168px;
+}
+
+.icon-fix
+{
+    background-position: -120px -168px;
+}
+
+.icon-euro
+{
+    background-position: -144px -168px;
+}
+
+.icon-dollar
+{
+    background-position: -168px -168px;
+}
+
+.icon-pound
+{
+    background-position: -192px -168px;
+}
+
+.icon-unchecked
+{
+    background-position: -384px -168px;
+}
+
+.input-prepend [class^="icon-"],
+.input-prepend [class*="icon-"],
+.input-append [class^="icon-"],
+.input-append [class*="icon-"]
+{
+    margin-top:3px;
+}
+
+/* auto complete */
+.ui-menu .ui-menu-item a:hover
+{
+    background: none;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.ui-menu .ui-menu-item a.ui-state-focus, .ui-menu .ui-menu-item a.ui-state-active
+{
+    background-color: #0081C2;
+    color: #FFFFFF;
+    outline: 0 none;
+    text-decoration: none;
+}
+
+
+
+/*************/
+/* jQuery UI */
+/*************/
+/* auto complete */
+.ui-autocomplete
+{
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.ui-autocomplete.dropdown-menu
+{
+    top: 0;
+}
+.ui-helper-hidden-accessible {
+    display:none;
+}
+
+/***********/
+/* eden.ui */
+/***********/
+
+.js-decimal {
+    text-align:right;
+}
+
+.js-radio-checkbox-text label {
+    min-width:110px;
+}
+
+.lookup_container {
+    display:inline-block;
+    width:220px;
+}
+
+.lookup_container select
+{
+    margin-top: 6px;
+}
+
+.lookup_container select:first-child
+{
+    margin: 0;
+}

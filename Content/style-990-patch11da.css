@@ -1,0 +1,157 @@
+/*************/
+/* 990px for Bootstrap */
+/*************/
+
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container
+{
+    width: 990px;
+}
+
+.row
+{
+    margin-left: -30px;
+    *zoom: 1;
+}
+
+    .row:before,
+    .row:after
+    {
+        display: table;
+        line-height: 0;
+        content: "";
+    }
+
+    .row:after
+    {
+        clear: both;
+    }
+
+[class*="span"]
+{
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+
+.span12
+{
+    width: 990px;
+}
+
+.span11
+{
+    width: 905px;
+}
+
+.span10
+{
+    width: 820px;
+}
+
+.span9
+{
+    width: 735px;
+}
+
+.span8
+{
+    width: 650px;
+}
+
+.span7
+{
+    width: 565px;
+}
+
+.span6
+{
+    width: 480px;
+}
+
+.span5
+{
+    width: 395px;
+}
+
+.span4
+{
+    width: 310px;
+}
+
+.span3
+{
+    width: 225px;
+}
+
+.span2
+{
+    width: 140px;
+}
+
+.span1
+{
+    width: 55px;
+}
+
+.offset12
+{
+    margin-left: 1110px;
+}
+
+.offset11
+{
+    margin-left: 965px;
+}
+
+.offset10
+{
+    margin-left: 880px;
+}
+
+.offset9
+{
+    margin-left: 795px;
+}
+
+.offset8
+{
+    margin-left: 710px;
+}
+
+.offset7
+{
+    margin-left: 625px;
+}
+
+.offset6
+{
+    margin-left: 540px;
+}
+
+.offset5
+{
+    margin-left: 455px;
+}
+
+.offset4
+{
+    margin-left: 370px;
+}
+
+.offset3
+{
+    margin-left: 285px;
+}
+
+.offset2
+{
+    margin-left: 200px;
+}
+
+.offset1
+{
+    margin-left: 115px;
+}
