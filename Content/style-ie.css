@@ -1,0 +1,98 @@
+
+
+.input-append,.input-prepend
+{
+  *display:inline;
+  *zoom:1;
+}
+
+.input-append .add-on
+{
+  *display:inline;
+  *zoom:1;
+}
+
+.row-fluid input[class*="span"]
+{
+  *min-height:0;
+  *width:280px;
+  box-sizing:border-box;
+}
+
+.wrapper {
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.sub-nav.fixed-top
+{
+  margin-top:0;
+}
+
+
+.page-title {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  width:100%;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #eee !important;	
+}
+
+.nav-tabs > li {
+  margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+  border-bottom: 1px solid #eee !important;	
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover {
+  border-left: 1px solid #eee !important;	
+  border-right: 1px solid #eee !important;	
+  border-bottom:1px solid #FFF !important;	
+}
+
+.tab-content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;			
+}
+
+.post-thumbnail
+{
+  *margin-left:10px;
+}
+
+.text-items-border
+{
+  *display:none;
+}
+
+.project-summary .btn-details {
+  padding:11px 15px;
+  font-size:15px;
+}
+
+
+.mobile:before,
+#mediaReport:before,
+#notice:before,
+#lesson:before {
+  left: -35px;
+}
+
+
+.project-list-item {
+  width:470px;
+  border-left:1px solid #ddd;
+}
+
+body {
+  background: #000;
+}
