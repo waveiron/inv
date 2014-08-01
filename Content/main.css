@@ -6479,3 +6479,26 @@ footer {
 .slick-dots li.slick-active button:before { opacity: 0.75; }
 
 
+.main-project {
+  width: 320px;
+  height: 320px;
+  float: left;
+  margin: 5px;
+}
+  .main-project  {
+    text-align: center;
+    font-size: 24px;
+  }
+  .main-project span {
+    line-height: 320px;
+    color: #fff;
+  }
+  .main-project-1 {
+    background: url(../Images/main/main_project_bg1.png) center center no-repeat;
+  }
+  .main-project-2 {
+    background: url(../Images/main/main_project_bg2.png) center center no-repeat;
+  }
+  .main-project-3 {
+    background: url(../Images/main/main_project_bg3.png) center center no-repeat;
+  } 
